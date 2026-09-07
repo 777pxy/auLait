@@ -1,3 +1,4 @@
+Note on AI: AI was set to teach mode and all code written in this project is my own.
 # auLait
 
 auLait stores any random dates, and fun activities you think about spontaneously and then at anytime spin a wheel to randomly pick one.
