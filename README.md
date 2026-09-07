@@ -18,3 +18,7 @@ I dont expect requests to exceed SQLite's capabilities and with it's ease of use
 ### Next-Auth
 
 I wanted this project to be fast to develop so I could focus more on the website instead of implementing authentication manually so next-auth was the obvious choice here with Next.js.
+
+## Git
+
+This project enforces a rebase only policy as I think it's a lot cleaner and easier to work with.
