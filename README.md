@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# auLait
 
-## Getting Started
+auLait stores any random dates, and fun activities you think about spontaneously and then at anytime spin a wheel to randomly pick one.
 
-First, run the development server:
+## Technology
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- SQLite
+- Next.js
+- Next-Auth
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+auLait is being built with ease of development in mind so nothing crazy is going on. Just a weekend for the backend and more time spent on the aesthetic direction.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### SQLite
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I dont expect requests to exceed SQLite's capabilities and with it's ease of use makes it the obvious choice
 
-## Learn More
+### Next-Auth
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I wanted this project to be fast to develop so I could focus more on the website instead of implementing authentication manually so next-auth was the obvious choice here with Next.js.
