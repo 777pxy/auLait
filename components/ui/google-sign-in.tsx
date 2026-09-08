@@ -8,7 +8,9 @@ export default function GoogleSignIn() {
         await signIn("google");
       }}
     >
-      <button type="submit">Signin with Google</button>
+      <button className="hover:cursor-alias" type="submit">
+        Sign in with Google
+      </button>
     </form>
   );
 }
